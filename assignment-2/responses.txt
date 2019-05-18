@@ -1,0 +1,9 @@
+I. One example of data travelling across the internet is video streaming.
+A stream of data leaves a server, and that data can be accessed with a plugin
+as part of a web browser(Netflix and Hulu use Silverlight).
+II. All things connected to the internet have an IP address. IP addresses are
+simply numerical though, and the Domain Name System connects domain names (google.com)
+to their IP addresses.
+III. Cookies are small pieces of data stored on a user's computer by a website.
+These can be used to give personalized information on a webpage.
+IV. The three parts of a URL are: the domain name, the protocol and the path.  
