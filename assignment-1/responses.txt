@@ -1,4 +1,4 @@
-How is the web different than the internet?
-Briefly describe how the internet works.
-What is a directory, and what is its relationship to files?
-Why is using a VCS beneficial?
+The Internet and the Web are two different innovations, the Web being a product of the Internet.
+The internet is essentially a vast network connecting many local networks together.
+Directories, or folders, are important for managing files in a cohesive way.
+Version control systems keep track of changes to a file or collections of files over time. 
