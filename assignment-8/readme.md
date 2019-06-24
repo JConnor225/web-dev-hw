@@ -1,0 +1,5 @@
+*Briefly recap your experience learning HTML. What was old, new, interesting, or difficult to learn?* HTML certainly has a learning curve and throughout the last few assignments I have begun to conquer it. Some of the more semantic parts of HTML can be hard to grasp initially, but after some practice with Atom I've started to feel more comfortable with all of it.
+
+*Next module we begin CSS and expand on styling, which helps us "decorate" HTML. Is there anything you're anxious or excited to learn about in this new section?* I am certainly excited to get into CSS as it seems to contain more of the complex design elements that make webpages beautiful. Being able to work with webpages both functionally and visually is incredibly important.
+
+*Free Response: Summarize your work cycle for this assignment.* To be completely honest, I blazed through this assignment pretty quickly. I think the foundation we have built throughout the rest of the class has served me well. I am feeling much more comofrtable working with HTML and I am beginning to pull some of the more common tags from memory rather than having to look them up.

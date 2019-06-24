@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"
+  <meta name="description" content="Instructable">
+  <meta name="author" content="James Sandefur">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Webpage</title>
+  <style> Body{border: 15px solid lightblue} h1{text-align: center;}</style>
+</head>
+<body>
+  <center>
+  <nav id="main"  >
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li> <a href="./instructions.html">Directions</a> </li>
+    </ul>
+  </nav>
+  <div id="form" class="container">
+    <h2>What are your thoughts?</h2>
+    <form action="#" method="get" id="contact">
+      <p>Did this recipe work for you?
+        <br/>
+        <input type="radio" name="sport" value="YES"/> YES <br/>
+        <input type="radio" name="sport" value="NO"/> NO <br/>
+      </p>
+      <p>What type of recipe should we feature next?<br>
+     <input type="radio" name="experience" value="expert"/>  Dessert <br/>
+     <input type="radio" name="experience" value="advanced"/> Pasta <br>
+     <input type="radio" name="experience" value="intermediate"/> Breakfast <br>
+     <input type="radio" name="experience" value="novice"/> Soup <br>
+     <input type="radio" name="experience" value="none"> Baking<br>
+   </p>
+   <p>How would you improve this recipe?</p>
+    <textarea name="recipe" rows="10" cols="50">suggestions, improvements</textarea>
+    <br>
+    <input type="submit" name="submit" value="Submit">
+</form>
+
+</div>
