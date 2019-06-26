@@ -1,0 +1,31 @@
+body {background-color: white;
+  font-family: sans-serif;
+  text-align: center;}
+  /* background square Colors */
+.square {width: 100%;
+    height: 50%;}
+#pink {background-color: #e7228c;
+  position: absolute;
+  top: 0;
+  right: 0;}
+#blue {background-color: #3AB1FC;
+      position: absolute;
+      bottom: 0;
+      right: 0;}
+
+ #sticker {height: 100px;
+        position: absolute;
+        top: -20px;
+        right: -50px;
+        -ms-transform: rotate(25deg);
+         -webkit-transform: rotate(25deg);
+         transform: rotate(25deg);}
+
+  .text-container {background-color: rgba(249, 254, 8, 0.8);
+           opacity: .9;
+           width: 700px;
+           position: absolute;
+           border-style: solid;
+             border-width: 8px;
+             border-color: lightblue;
+             background: #f1f1f1;}
