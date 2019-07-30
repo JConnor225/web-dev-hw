@@ -1,0 +1,139 @@
+/* Page-Wide */
+#body {background: white;
+  padding: 20px;}
+
+/* Canvas */
+#canvas {
+  width: 500px;
+  height: 600px;
+  background-color: gray;
+  border: 15px solid #E1DEDB;
+  position: relative;}
+  #canvas::after {
+  content: '';
+  width: 500px;
+  height: 600px;
+  background-image: url("../images/canvas-overlay.png");
+  opacity: 0.5;
+
+  position: absolute;
+  top: 0;
+  right: ;
+  left: 0;
+  bottom: ;
+}
+  /* 3 Vertical Columns */
+.column-left {
+  width: 30%;
+  height: 100%;
+  float: left;
+
+  position: relative;
+}
+.column-center {
+  width: 40%;
+  height: 100%;
+  float: left;
+
+  position: relative;
+}
+.column-right {
+  width: 30%;
+  height: 100%;
+  float: left;
+
+  position: relative;
+}
+/* Horizontal Rows */
+.row {
+  width: 100%;
+  height: 33.3%;
+}
+  /* Half-Circles */
+.half-circle {
+  width: 125px;
+  height: 250px;
+  border-top-right-radius: 125px;
+  border-bottom-right-radius: 125px;
+}
+  .column-center .half-circle {
+    background-color: #F77B60;
+
+    position: absolute;
+    top: ;
+    right: ;
+    left: 10px;
+    bottom: 125px;
+    transform: rotate(80deg)
+  }
+  /* Line Shapes */
+.vertical-rectangle {
+  width: 12px;
+  height: 650px;
+  background-color: #000000;
+}
+
+  .column-left .vertical-rectangle {
+    margin-top: 0px;
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    left: 150px;
+    bottom: 0px;
+      transform: rotate(-20deg)
+  }
+
+.horizontal-rectangle {
+  width: 100px;
+  height: 10px;
+  background-color: #E1DEDB;}
+
+  .column-right .horizontal-rectangle {
+  margin-top: 0px;
+  position: absolute;
+  top: 100px;
+  right: 270px;
+  left: -50px;
+  bottom: ;
+  z-index: 1;
+    transform: rotate(-50deg)
+}
+.column-center .horizontal-rectangle {
+background-color: #EA0000;
+margin-top: 0px;
+position: absolute;
+top: 100px;
+right: 170px;
+left: 135px;
+bottom: ;
+z-index: 1;
+  transform: rotate(-50deg)
+}
+.column-left .horizontal-rectangle {
+background-color: #F9BD13;
+margin-top: 0px;
+position: absolute;
+top: 400px;
+right: -70px;
+left: 220px;
+bottom: ;
+z-index: 1;
+  transform: rotate(65deg)
+}
+
+.long-rectangle {
+  width: 1000px;
+  height: 10px;
+  background-color: #E1DEDB;}
+
+.row .long-rectangle {
+background-color: #F9BD13;
+margin-top: 0px;
+position: absolute;
+top: 4px;
+right: 70px;
+left: 200px;
+bottom: 400px;
+z-index: 1;
+  transform: rotate(65deg)
+}
